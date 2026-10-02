@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "ln-invoice",
+  "versions": [
+    {
+      "commit": "1a9b2468b2c0969855ad3a9aa4d26981102b6a99",
+      "tag": "main",
+      "parsed_at": "2026-10-02T10:45:10.160457+00:00"
+    }
+  ]
+}
