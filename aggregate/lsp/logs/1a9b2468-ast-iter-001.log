@@ -1,0 +1,7 @@
+[2026-10-02T10:40:28Z] === AST ITERATION 1 START | repo=block/ln-invoice sha=1a9b2468 ===
+[2026-10-02T10:40:28Z] [iter=1] PHASE START: ast repo=block/ln-invoice sha=1a9b2468
+[2026-10-02T10:40:28Z] [iter=1] Building AST aggregate chunks
+[2026-10-02T10:40:34Z] [iter=1] AST chunks built count=1 triples=113324
+[2026-10-02T10:40:34Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/1a9b2468b2c0969855ad3a9aa4d26981102b6a99/.complete
+[2026-10-02T10:40:34Z] [iter=1] PHASE END: ast elapsed_s=6 elapsed_min=0.1
+[2026-10-02T10:40:34Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
