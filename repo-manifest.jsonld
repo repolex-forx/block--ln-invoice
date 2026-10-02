@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/ln-invoice/commit/1a9b2468b2c0969855ad3a9aa4d26981102b6a99",
       "git:hexsha": "1a9b2468b2c0969855ad3a9aa4d26981102b6a99",
-      "repolex:parseStatus": "ast_complete",
+      "repolex:parseStatus": "enrich_complete",
       "git:tagName": "main"
     },
     {

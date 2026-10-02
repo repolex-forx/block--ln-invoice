@@ -1,0 +1,17 @@
+[2026-10-02T10:42:34Z] === ENRICH ITERATION 1 START | repo=block/ln-invoice sha=1a9b2468 ===
+[2026-10-02T10:42:34Z] [iter=1] PHASE START: enrich repo=block/ln-invoice sha=1a9b2468 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/1a9b2468-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/1a9b2468b2c0969855ad3a9aa4d26981102b6a99.nq.gz
+[2026-10-02T10:42:34Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-10-02T10:42:37Z] [iter=1] AST store loaded triples=113296 load_secs=3 mem_mb=248 MB
+[2026-10-02T10:42:37Z] [iter=1] Step 2: Finding LSP targets mem_mb=248 MB
+[2026-10-02T10:42:37Z] [iter=1] LSP targets found call_sites=1159 imports=121 extends=0 implements=0 secs=0
+[2026-10-02T10:42:38Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=248 MB
+[2026-10-02T10:42:38Z] [iter=1] Position index built positions=6540 nodes_with_types=8047 secs=1 mem_mb=248 MB
+[2026-10-02T10:42:38Z] [iter=1] Step 3: Starting LSP resolution mem_mb=248 MB already_completed_types=[] already_completed_files=0
+[2026-10-02T10:42:38Z] [iter=1] Resolving target type target_type=call_site count=1159
+[2026-10-02T10:43:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=11 resolved=184 errors=265 current=buildSrc/build.gradle.kts
+[2026-10-02T10:43:11Z] [iter=1] Target type resolved target_type=call_site resolved=186 errors=279 secs=33 mem_mb=248 MB
+[2026-10-02T10:43:11Z] [iter=1] Resolving target type target_type=import_statement count=121
+[2026-10-02T10:43:22Z] [iter=1] Target type resolved target_type=import_statement resolved=0 errors=0 secs=10 mem_mb=248 MB
+[2026-10-02T10:43:33Z] [iter=1] Step 5: Writing final enrichment file triples=6175
+[2026-10-02T10:43:33Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/1a9b2468b2c0969855ad3a9aa4d26981102b6a99.nq.gz size_kb=89
+[2026-10-02T10:43:33Z] [iter=1] PHASE END: enrich elapsed_s=59 elapsed_min=1.0 total_triples=6175
