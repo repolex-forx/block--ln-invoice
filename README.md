@@ -36,12 +36,17 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
-│   │   └── 1a9b2468b2c0969855ad3a9aa4d26981102b6a99
+│   │   ├── 1a9b2468b2c0969855ad3a9aa4d26981102b6a99
+│   │   │   └── chunk-001.nq.gz
+│   │   └── 7cbe14a00ef2fdcc5b43ffa430562ca7c9e0c025
 │   │       └── chunk-001.nq.gz
 │   ├── lsp
-│   │   └── 1a9b2468b2c0969855ad3a9aa4d26981102b6a99.nq.gz
+│   │   ├── 1a9b2468b2c0969855ad3a9aa4d26981102b6a99.nq.gz
+│   │   └── 7cbe14a00ef2fdcc5b43ffa430562ca7c9e0c025.nq.gz
 │   └── repolex
-│       └── 1a9b2468b2c0969855ad3a9aa4d26981102b6a99
+│       ├── 1a9b2468b2c0969855ad3a9aa4d26981102b6a99
+│       │   └── chunk-001.nq.gz
+│       └── 7cbe14a00ef2fdcc5b43ffa430562ca7c9e0c025
 │           └── chunk-001.nq.gz
 ├── blob
 │   ├── 0a91af21fd9f0c3d0daca9510799e79592b5fb64.nq.gz
@@ -67,6 +72,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 79e5ee62572ac260b5164c7cf68c6595fe07737b.nq.gz
 │   ├── 7b298039bcc5ab7afb476b92b1bf3970c4d36733.nq.gz
 │   ├── 7fef769248e85eab6c828b9f2f7b802296cddadc.nq.gz
+│   ├── 81ccb6a7f7d7ad3d108dacbba23492976058b814.nq.gz
 │   ├── 927902b355dc3f16bb1dbee5800e4b23adeeece8.nq.gz
 │   ├── 9a08009bacccbe18bc769abfbfd7ceabf3e05a0c.nq.gz
 │   ├── 9b353494b9affa9873676a82eda20a00e53df08f.nq.gz
@@ -90,7 +96,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 ├── commit
 │   └── commit.nq.gz
 ├── filetree
-│   └── 1a9b2468b2c0969855ad3a9aa4d26981102b6a99.nq.gz
+│   ├── 1a9b2468b2c0969855ad3a9aa4d26981102b6a99.nq.gz
+│   └── 7cbe14a00ef2fdcc5b43ffa430562ca7c9e0c025.nq.gz
 ├── issue
 │   └── issue.nq.gz
 ├── pr
@@ -98,7 +105,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-14 directories, 50 files
+16 directories, 55 files
 ```
 
 | Directory | What it contains |
@@ -119,4 +126,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [block/ln-invoice](https://github.com/block/ln-invoice)
 
 ---
-*Parsed on 2026-10-02 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-21 by [repolex](https://repolex.ai)*
